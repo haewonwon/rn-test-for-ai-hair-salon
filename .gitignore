@@ -35,3 +35,200 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# React Native
+*.log
+*.lock
+*.tmp
+*.temp
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcuserstate
+ios/UserInterfaceState.xcuserstate
+
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/release/
+
+# Expo
+.expo/
+.expo-shared/
+expo-env.d.ts
+
+# Metro
+.metro-health-check*
+.metro-cache/
+
+# Flipper
+ios/Pods/Flipper*
+
+# CocoaPods
+ios/Pods/
+Podfile.lock
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+UserInterfaceState.xcuserstate
+DerivedData/
+
+# Android Studio
+.idea/
+*.iml
+.gradle/
+local.properties
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+
+# Sentry
+.sentryclirc
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# Android specific
+android/app/debug.keystore
+android/app/release/
+android/gradle.properties
+android/local.properties
+
+# iOS specific
+ios/mobile.xcworkspace/
+ios/mobile.xcodeproj/xcuserdata/
+ios/mobile.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Podfile.lock
+ios/Podfile.properties.json
+
+# Generated files
+ios/build/generated/
+android/build/generated/
+
+# IDE specific
+*.xcuserstate
+*.xcworkspace
+UserInterfaceState.xcuserstate
+
+# Build artifacts
+*.ipa
+*.apk
+*.aab
+
+# CocoaPods
+ios/Pods/
+Podfile.lock
+
+# Gradle
+android/.gradle/
+android/app/build/
+android/build/
